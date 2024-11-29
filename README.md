@@ -97,6 +97,7 @@ project/
 ├── keyboards/
 │   ├── __init__.py        # Package initialization
 │   └── main_menu.py       # Telegram keyboard logic
+├── __init__.py            # Package initialization
 ├── config.py              # Configuration file for API keys and tokens
 ├── requirements.txt       # List of dependencies
 └── README.md              # Project documentation
