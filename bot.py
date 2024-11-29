@@ -1,5 +1,3 @@
-# bot.py
-
 import telebot
 from configfile import TOKEN
 from keyboards.main_menu import main_menu
