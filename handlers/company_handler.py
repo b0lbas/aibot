@@ -20,7 +20,7 @@ def generate_company_idea(bot, chat_id):
     bot.send_message(chat_id, "Please wait...")
     current_time = datetime.now().strftime("%H%M%S")
 
-    name_prompt = [{"role": "user", "content": f"Generate a company name. Current time: {current_time}"}]
+    name_prompt = [{"role": "user", "content": f"Generate a company name. (unrelated:{current_time})"}]
     company_name = generate_text(HF_INSTRUCTION_MODEL, name_prompt)
 
     prompt = f"Generate a logo for a company called {company_name}"
